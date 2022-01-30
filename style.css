@@ -1,0 +1,98 @@
+*{margin:0; padding:0; font-family: arial; font-size: 17px;}
+#wrapper {
+    margin: 50px auto;
+    width: 500px;
+    height: 550px;
+    border: 5px solid #7575A3;
+    border-radius: 20px;
+    box-shadow: 5px 5px 25px -5px;
+}
+.heading {
+    margin: 0 auto;
+    margin-top: -1px;
+    background-color: #7575A3;
+    padding: 2px 10px 5px 10px;
+    width: 100px;
+    color: #fff;
+    text-align: center;
+    border-radius: 0px 0px 30px 30px;
+    font-size: 12px;
+}
+.form-wrapper {
+    font-size: 18px;
+    margin: 95px 0px 0px 29px;
+    padding: 0px;
+}
+input[type=text] {
+    width: 190px;
+    height: 25px;
+    margin-left: 20px;
+    border: 2px solid #7575A3;
+    border-radius: 5px;
+}
+input[type=password] {
+    width: 190px;
+    height: 25px;
+    margin-left: 40px;
+    border: 2px solid #7575A3;
+    border-radius: 5px;
+}
+label[for=username]{
+	margin-right:17px;
+}
+select {
+    width: 196px;
+    height: 28px;
+    margin-left: 24px;
+    border: 2px solid #7575A3;
+    border-radius: 5px;
+	color: #7575A3;
+    font-family: icon;
+}
+input[type=radio]{
+	margin-left:124px;
+}
+#admin{
+	margin-left: 49px;
+}
+input[type=checkbox]{
+	margin-left:124px;
+}
+#mail{
+	margin-left: 2px;
+}
+.loginreset {
+    margin-left: 111px;
+}
+input[type=submit] {
+    width: 80px;
+    height: 35px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    background: #7575A3;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 15px;
+    transition: background 0.5s ease;
+}
+input[type=submit]:hover{
+	background: #47476b;
+	cursor:pointer;
+}
+input[type=reset] {
+    width: 80px;
+    height: 35px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    background: #7575A3;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 15px;
+    transition: background 0.5s ease;
+}
+input[type=reset]:hover{
+	background: #47476b;
+	cursor:pointer;
+}
